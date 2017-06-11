@@ -1,0 +1,42 @@
+.btn{
+    margin-top: 12px;
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background: #fff;
+    border-radius: 4px;
+    font-size: $font-size-small;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: $blue;
+    text-decoration: none;
+    transition: all .35s linear;
+    cursor: pointer;
+
+    &.btn-primary{
+        color: $white;
+        background: $green;
+        text-shadow: 0 1px 3px rgba(36,180,126,.4);
+    }
+
+    &.btn-secondary{
+        color: $white;
+        background: $blue;
+        text-shadow: 0 1px 3px rgba(36,180,126,.4);
+    }
+
+    &:hover, &:focus{
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: 0 7px 14px rgba(50,50,93,.12), 0 3px 6px rgba(0,0,0,.10);
+
+        &.btn-primary{
+            color: $white;
+        }
+    }
+}

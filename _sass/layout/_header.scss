@@ -1,0 +1,42 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:0;
+    background: $white;
+    font-size: $font-size-regular;
+    z-index: 500;
+
+    #site-branding {
+        display: block;
+        padding: 32px 0 22px;
+
+        span{
+            position: relative;
+            display: inline-block;
+            font-weight: $font-weight-bold;
+            font-size: $font-size-x-large;
+
+            span.brandName{
+                color: $grey;
+
+                span{
+                    font-weight: $font-weight-light;
+                    color: $blue;
+                }
+            }
+
+            svg{
+                position: absolute;
+                left: 100%;
+                bottom: 100%;
+                margin-left: -1px;
+                margin-bottom: -13px;
+                width: 100%;
+                max-width: 32px; 
+                fill: $blue;
+            }
+        }
+    }
+}

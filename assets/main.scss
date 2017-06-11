@@ -1,0 +1,34 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+/*
+ * File: main.scss
+ * Author: Martin Bargl <bargl@webwings.cz>
+ * Date: 2017-06-03
+ *
+ * Description: Main SASS file including the partials
+ */
+
+ @import 'base/_reset';
+ @import 'base/_colors';
+ @import 'base/_typography';
+ @import 'base/_responsive';
+
+ @import 'utils/_variables';
+ @import 'utils/_mixins';
+
+ @import 'vendors/bootstrap/_bootstrap.grid.framework';
+ @import 'vendors/bootstrap/_bootstrap.grid.mixins';
+ @import 'vendors/bootstrap/_bootstrap.grid';
+
+ @import 'themes/_public';
+
+ @import 'components/_elements';
+ @import 'components/_buttons'; 
+ @import 'components/_navigation'; 
+
+ @import 'layout/_header';
+ @import 'layout/_content';
+ @import 'layout/_footer';
+
+ @import 'pages/_home';       
